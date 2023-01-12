@@ -44,9 +44,9 @@ class RunOpenLapSim:
         self.bExport = bExport
         self.bPlot = bPlot
         self.bPlotExtra = bPlotExtra
-        self.trackFilesPath = "trackFiles/"
-        self.exportFilesPath = "exportFiles/"
-        self.setupFilesPath = "setupFiles/"
+        self.trackFilesPath = "src/trackFiles/"
+        self.exportFilesPath = "src/exportFiles/"
+        self.setupFilesPath = "src/setupFiles/"
         # outputs
         self.laptime = None
         self.vcarmax = None

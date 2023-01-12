@@ -33,7 +33,7 @@ by Python 3.7
 """
 # Import Packages
 import json
-
+import os
 
 class SetupFileLoader:
 
@@ -43,6 +43,7 @@ class SetupFileLoader:
 
     def loadJSON(self):
         # load json
+        print(self.setupFileName)
         with open(self.setupFileName) as f:
             data = json.load(f)
         # set setupDict
